@@ -14,21 +14,10 @@
 						"name": "latexmk",
 						"command": "latexmk",
 						"args": [
-							"%DOCFILE_EXT%"
+							"%DOC%"
 						]
 					}
-				],
-				"latex-workshop.latex.recipes": [
-					{
-						"name": "latexmk",
-						"tools": ["latexmk"]
-					  }
-				],
-				"latex-workshop.latex.autoBuild.run": "onFileChange",
-				"latex-workshop.view.pdf.viewer": "tab",
-				"latex-workshop.latexindent.path": "sh",
-				"editor.wordSeparators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?．。，、（）「」［］｛｝《》てにをはがのともへでや",
-				"editor.formatOnSave": false
+				]
 			}
 		}
 	}
