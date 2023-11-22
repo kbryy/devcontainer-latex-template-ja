@@ -27,7 +27,7 @@
 *.fls
 *.bcf
 *.xml
-*.pdf
+# *.pdf
 !figures/*.pdf
 
 # Ignore node_modules
