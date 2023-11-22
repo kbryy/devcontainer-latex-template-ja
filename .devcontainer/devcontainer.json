@@ -1,6 +1,8 @@
 {
 	"name": "LaTeX",
-	"image": "ghcr.io/being24/latex-docker",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
 	"workspaceMount": "source=${localWorkspaceFolder},target=/workdir,type=bind",
 	"workspaceFolder": "/workdir",
 	"customizations": {
