@@ -1,0 +1,35 @@
+{
+	"name": "LaTeX",
+	"image": "ghcr.io/being24/latex-docker",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workdir,type=bind",
+	"workspaceFolder": "/workdir",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"James-Yu.latex-workshop"
+			],
+			"settings": {
+				"latex-workshop.latex.tools": [
+					{
+						"name": "latexmk",
+						"command": "latexmk",
+						"args": [
+							"%DOCFILE_EXT%"
+						]
+					}
+				],
+				"latex-workshop.latex.recipes": [
+					{
+						"name": "latexmk",
+						"tools": ["latexmk"]
+					  }
+				],
+				"latex-workshop.latex.autoBuild.run": "onFileChange",
+				"latex-workshop.view.pdf.viewer": "tab",
+				"latex-workshop.latexindent.path": "sh",
+				"editor.wordSeparators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?．。，、（）「」［］｛｝《》てにをはがのともへでや",
+				"editor.formatOnSave": false
+			}
+		}
+	}
+}
