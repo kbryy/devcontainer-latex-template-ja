@@ -10,5 +10,6 @@ RUN apt-get update && \
     texlive-fonts-recommended \
     texlive-fonts-extra \
     fonts-ipaexfont \
+    latexmk \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
