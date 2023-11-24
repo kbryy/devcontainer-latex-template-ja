@@ -9,6 +9,7 @@ RUN apt-get update && \
     texlive-lang-cjk \
     texlive-fonts-recommended \
     texlive-fonts-extra \
+    texlive-extra-utils \
     fonts-ipaexfont \
     latexmk \
     && apt-get clean \
