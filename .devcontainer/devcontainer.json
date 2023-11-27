@@ -10,17 +10,7 @@
 			"extensions": [
 				"James-Yu.latex-workshop"
 			],
-			"settings": {
-				"latex-workshop.latex.tools": [
-					{
-						"name": "latexmk",
-						"command": "latexmk",
-						"args": [
-							"%DOC%"
-						]
-					}
-				]
-			}
+			"settings": {}
 		}
 	}
 }

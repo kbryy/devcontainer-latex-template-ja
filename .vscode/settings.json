@@ -1,3 +1,12 @@
 {
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "%DOC%"
+            ]
+        }
+    ],
     "latex-workshop.latex.outDir": "out"
 }
