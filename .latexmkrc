@@ -24,5 +24,5 @@ $makeindex        = "mendex %O -o %D %S";
 $max_repeat       = 4;
 
 ## output directory
-$aux_dir          = ".build/";
+$aux_dir          = "out/";
 $out_dir          = "out/";
