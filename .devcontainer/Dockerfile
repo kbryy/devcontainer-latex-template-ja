@@ -4,12 +4,14 @@ RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y \
     git \
     openssh-client \
-    vim\
+    vim \
+    sudo \
     texlive \
     texlive-lang-cjk \
     texlive-fonts-recommended \
     texlive-fonts-extra \
     texlive-extra-utils \
+    texlive-science \
     fonts-ipaexfont \
     latexmk \
     && apt-get clean \
